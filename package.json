@@ -1,0 +1,27 @@
+{
+  "name": "mqttbroker",
+  "version": "0.1.0",
+  "description": "a mqtt broker",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaocaovc/mqttBroker.git"
+  },
+  "author": "centercao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaocaovc/mqttBroker/issues"
+  },
+  "homepage": "https://github.com/xiaocaovc/mqttBroker#readme",
+  "dependencies": {
+    "ioredis-helper": "^0.1.0",
+    "logger-helper": "^0.1.1",
+    "mongodb": "^2.2.31",
+    "mongodb-helper": "^0.1.1",
+    "mqtt-helper": "^0.1.2",
+    "tui-helper": "^0.1.6"
+  }
+}
